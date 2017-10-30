@@ -1,10 +1,48 @@
-#navigation ul{
+#navigation li{
    list-style-type: none;
+   display:inline;
+   margin: 0 10px 0 0;
+   font-size: 25px
+}
+#navigation ul {
+  text-align:right;
 }
 
-#navigation li{
-   display: inline;
-   text-align: center;
-   margin: 0 10px 0 0;
+ a{
+  font-size: 30px
 }
-*/
+
+.img-fluid{
+  display: block;
+  margin:0 auto 20px;
+  padding: 100px;
+}
+ .name{
+   font-size: 4.75em
+
+}
+
+.star-lights{
+  max-width: 250px;
+  margin:25px;
+  border-top: solid 5px
+
+}
+
+.skills{
+  font-size: 1.25em
+}
+
+.textcenter{
+  tetx-align:center
+}
+.images{
+  width:350px;
+  height:260px;
+  display: inline-block;
+  margin-right: -50px;
+  margin-left: 90px;
+  margin-top: 40px;
+
+
+}
